@@ -1,0 +1,27 @@
+{
+  "name": "simple-mysql-connection-nodejs-study",
+  "version": "1.0.0",
+  "description": "Series of small projects just to specify parts of NodeJS to study.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brinfoleo/simple-MYSQL-connection-nodejs-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brinfoleo/simple-MYSQL-connection-nodejs-study/issues"
+  },
+  "homepage": "https://github.com/brinfoleo/simple-MYSQL-connection-nodejs-study#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21"
+  }
+}
